@@ -8,5 +8,6 @@ a shopify 2.0 base theme that passes `shopify theme check`
 `shopify logout`
 
 `shopify theme check`
+[Source](https://shopify.dev/changelog/online-store-2-0-detect-theme-errors-with-theme-check)
 
 `shopify theme serve`
