@@ -12,3 +12,7 @@ a shopify 2.0 base theme that passes `shopify theme check`
 [Source](https://shopify.dev/changelog/online-store-2-0-detect-theme-errors-with-theme-check)
 
 `shopify theme serve`
+
+
+## Why site speed matters
+[Site Speed cost amazon 1% of sales](https://www.shopify.com/enterprise/site-speed-score)
