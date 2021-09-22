@@ -1,11 +1,11 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Dawn",
-    "theme_version": "2.1.0",
-    "theme_author": "Shopify",
-    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn",
-    "theme_support_url": "https://support.shopify.com/"
+    "theme_name": "shopifyBaseTheme",
+    "theme_version": "0.1.0",
+    "theme_author": "Lorelei M",
+    "theme_documentation_url": "https://github.com/loreleim/shopifyBaseTheme",
+    "theme_support_url": "https://github.com/loreleim/shopifyBaseTheme"
   },
   {
     "name": "t:settings_schema.colors.name",
