@@ -468,7 +468,7 @@
       }
     },
     "featured-blog": {
-      "name": "Blog posts",
+      "name": "Featured blog",
       "settings": {
         "heading": {
           "label": "Heading"
@@ -477,7 +477,7 @@
           "label": "Blog"
         },
         "post_limit": {
-          "label": "Blog posts"
+          "label": "Featured blog"
         },
         "show_view_all": {
           "label": "Enable \"View all\" button if blog includes more blog posts than shown"
@@ -497,7 +497,7 @@
         }
       },
       "presets": {
-        "name": "Blog posts"
+        "name": "Featured blog"
       }
     },
     "featured-collection": {
@@ -1058,7 +1058,7 @@
       }
     },
     "main-blog": {
-      "name": "Blog posts",
+      "name": "Featured blog",
       "settings": {
         "header": {
           "content": "Blog post card"
