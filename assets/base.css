@@ -10,7 +10,7 @@
 /* Buttons */
 @import "./base-buttons.css";
 
-/* Base */
+/* Base: Home for styles that can appear on EVERY page */
 
 .no-js:not(html) {
   display: none !important;
