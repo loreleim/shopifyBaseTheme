@@ -5,6 +5,15 @@
   --color-foreground: var(--color-base-text);
   --color-background: var(--color-base-background-1);
   --gradient-background: var(--gradient-base-background-1);
+  --color-link: var(--color-base-outline-button-labels);
+  --alpha-link: 0.85;
+  --color-button: var(--color-base-accent-1);
+  --color-button-text: var(--color-base-solid-button-labels);
+  --alpha-button-background: 1;
+  --alpha-button-border: 1;
+  --color-badge-background: var(--color-background);
+  --color-badge-border: var(--color-foreground);
+  --alpha-badge-border: 0.1;
 }
 
 .color-background-2 {
@@ -42,26 +51,12 @@
   --color-foreground: var(--color-base-accent-2);
 }
 
-:root,
-.color-background-1 {
-  --color-link: var(--color-base-outline-button-labels);
-  --alpha-link: 0.85;
-}
-
 .color-background-2,
 .color-inverse,
 .color-accent-1,
 .color-accent-2 {
   --color-link: var(--color-foreground);
   --alpha-link: 0.7;
-}
-
-:root,
-.color-background-1 {
-  --color-button: var(--color-base-accent-1);
-  --color-button-text: var(--color-base-solid-button-labels);
-  --alpha-button-background: 1;
-  --alpha-button-border: 1;
 }
 
 .color-background-2,
@@ -99,13 +94,6 @@
 .color-accent-2 .button--tertiary {
   --color-button: var(--color-foreground);
   --color-button-text: var(--color-foreground);
-}
-
-:root,
-.color-background-1 {
-  --color-badge-background: var(--color-background);
-  --color-badge-border: var(--color-foreground);
-  --alpha-badge-border: 0.1;
 }
 
 .color-background-2,
