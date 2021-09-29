@@ -157,3 +157,9 @@ body,
       calc(5rem + var(--page-width-margin));
   }
 }
+
+.gradient {
+  background: var(--color-background);
+  background: var(--gradient-background);
+  background-attachment: fixed;
+}
