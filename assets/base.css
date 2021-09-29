@@ -719,7 +719,7 @@ summary::-webkit-details-marker {
     z-index: 4;
   }
 
-  .facets .disclosure-has-popup[open] > summary + * {
+  .disclosure-has-popup[open] > summary + * {
     z-index: 2;
   }
 }

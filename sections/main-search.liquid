@@ -7,11 +7,6 @@
 
 <noscript>{{ 'component-search.css' | asset_url | stylesheet_tag }}</noscript>
 
-{%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
-  {{ 'component-facets.css' | asset_url | stylesheet_tag }}
-  <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
-{%- endif -%}
-
 <style>
   .template-search__header {
     margin-bottom: 3rem;
@@ -127,13 +122,6 @@
     {%- endif -%}
   </div>
   {%- if search.performed -%}
-    {%- if search.filters != empty -%}
-      {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
-        <div class="page-width">
-          {% render 'facets', results: search, enable_filtering: section.settings.enable_filtering, enable_sorting: section.settings.enable_sorting, collapse_on_larger_devices: section.settings.collapse_on_larger_devices %}
-        </div>
-      {%- endif -%}
-    {%- endif -%}
     <div id="ProductGridContainer">
       {%- if search.results.size == 0 and search.filters != empty -%}
         <div class="template-search__results collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
