@@ -103,7 +103,7 @@
   }
 }
 
-.background-secondary .article-card,
+.background-secondary,
 .background-secondary .blog-placeholder__content {
   background-color: rgb(var(--color-background));
 }
