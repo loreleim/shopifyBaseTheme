@@ -5,6 +5,7 @@ a shopify 2.0 base theme that passes `shopify theme check`
 # Anatomy of the Theme
 
 [Theme: Details]()
+
 [Theme: Colors]()
 
 [Development: CLI Commands](#cli-commands)
@@ -26,7 +27,7 @@ a shopify 2.0 base theme that passes `shopify theme check`
   ```
 </details>
 
-# Theme Colors
+## Theme Colors
 
 <details>
   <summary>settings_data.json</summary>
@@ -67,6 +68,10 @@ a shopify 2.0 base theme that passes `shopify theme check`
 </details>
 
 </hr>
+
+## Fonts
+
+--font-heading-family
 
 ## CLI Commands
 
