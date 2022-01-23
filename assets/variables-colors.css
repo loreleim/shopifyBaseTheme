@@ -152,3 +152,31 @@
 .color-icon-outline-button {
   --color-icon: rgb(var(--color-base-outline-button-labels));
 }
+
+body,
+.color-background-1,
+.color-background-2,
+.color-inverse,
+.color-accent-1,
+.color-accent-2 {
+  color: rgba(var(--color-foreground), 0.75);
+  background-color: rgb(var(--color-background));
+}
+
+.background-secondary {
+  background-color: rgba(var(--color-foreground), 0.04);
+}
+
+::selection {
+  background-color: rgba(var(--color-foreground), 0.2);
+}
+
+.color-foreground {
+  color: rgb(var(--color-foreground));
+}
+
+.placeholder {
+  background-color: rgba(var(--color-foreground), 0.04);
+  color: rgba(var(--color-foreground), 0.55);
+  fill: rgba(var(--color-foreground), 0.55);
+}
