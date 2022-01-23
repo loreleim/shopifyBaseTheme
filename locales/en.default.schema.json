@@ -764,13 +764,6 @@
         },
         "menu": {
           "label": "Menu"
-        },
-        "show_line_separator": {
-          "label": "Show separator line"
-        },
-        "enable_sticky_header": {
-          "label": "Enable sticky header",
-          "info": "Header shows on the screen as customers scroll up."
         }
       }
     },

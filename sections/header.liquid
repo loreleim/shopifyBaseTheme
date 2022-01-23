@@ -5,8 +5,8 @@
       
       {%- if section.settings.logo -%}
       {%- assign image_size = section.settings.logo_width | append: 'x' -%}
-      <img srcset="{{ section.settings.logo | image_url: image_size }} 1x, {{ section.settings.logo | image_url: image_size, scale: 1 }} 2x"
-        src="{{ section.settings.logo | image_url: image_size }}"
+      <img
+        src="{{ section.settings.logo | img_url: image_size }}"
         loading="lazy"
         class="themename-primaryHeader__logo"
         width="{{ section.settings.logo.width }}"
@@ -93,19 +93,6 @@
       "id": "menu",
       "default": "main-menu",
       "label": "t:sections.header.settings.menu.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_line_separator",
-      "default": true,
-      "label": "t:sections.header.settings.show_line_separator.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_sticky_header",
-      "default": true,
-      "label": "t:sections.header.settings.enable_sticky_header.label",
-      "info": "t:sections.header.settings.enable_sticky_header.info"
     }
   ]
 }
