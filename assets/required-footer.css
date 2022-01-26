@@ -1,6 +1,10 @@
 .footer__copyright {
-  color: red;
-  background-color: var(--buttonColor);
+  color: var(--foregroundColor);
+  background-color: var(--backgroundColor);
   font-family: var(--font-Heading);
   padding: 1rem;
+}
+
+.footer__copyright a {
+  color: inherit;
 }
