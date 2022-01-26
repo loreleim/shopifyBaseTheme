@@ -3,8 +3,10 @@
   background-color: var(--backgroundColor);
   font-family: var(--font-Heading);
   padding: 1rem;
+  text-align: center;
 }
 
 .footer__copyright a {
   color: inherit;
+  text-decoration: inherit;
 }
