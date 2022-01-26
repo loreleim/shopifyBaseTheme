@@ -10,6 +10,18 @@ a shopify 2.0 base theme that passes `shopify theme check`
 
 [Development: CLI Commands](#cli-commands)
 
+## Local Development
+
+Login to your theme with 
+```
+shopify login --store=yourstorename.myshopify.com
+```
+
+Serve your theme to local with
+```
+shopify theme serve
+```
+
 ## Theme Details
 
 Everything below shows up in the Customize > Theme settings > Theme details page. Items will show up in accordion format in the admin. If you want an accordion to show up, you'll have to configure it in the settings_schema.json
@@ -94,7 +106,7 @@ Everything below shows up in the Customize > Theme settings > Theme details page
 
 ## CLI Commands
 
-`shopify login --store yoursitename.myshopify.com`
+`shopify login --store=yoursitename.myshopify.com`
 
 `shopify logout`
 
