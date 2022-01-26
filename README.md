@@ -91,7 +91,7 @@ Everything below shows up in the Customize > Theme settings > Theme details page
     :root {
       /* Colors */
       --primaryButton: red;
-      --color-base-solid-button-labels: {{ settings.colors_primaryColor }};
+      --primaryButton: {{ settings.colors_primaryColor }};
     }
   {% endstyle %}
   ```
