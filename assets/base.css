@@ -1,3 +1,10 @@
+/* Simple Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 /* Colors */
 @import "./base-colors.css";
 
@@ -526,7 +533,7 @@ deferred-media {
   margin: 0;
 }
 
-.quantity__input[type='number'] {
+.quantity__input[type="number"] {
   -moz-appearance: textfield;
 }
 
