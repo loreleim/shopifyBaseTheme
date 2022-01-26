@@ -41,7 +41,7 @@
     "typography": {
       "name": "Typography",
       "settings": {
-        "type_header_font": {
+        "type_headerFont": {
           "label": "Font"
         },
         "header__1": {
@@ -50,7 +50,7 @@
         "header__2": {
           "content": "Body"
         },
-        "type_body_font": {
+        "type_bodyFont": {
           "label": "Font"
         }
       }

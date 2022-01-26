@@ -55,8 +55,8 @@ Everything below shows up in the Customize > Theme settings > Theme details page
   "colors_outline_button_labels": "#7B8382",
   "colors_background_1": "#EFECEC",
   "colors_background_2": "#C1BCAE",
-  "type_header_font": "americana_n4",
-  "type_body_font": "quattrocento_sans_n4",
+  "type_headerFont": "americana_n4",
+  "type_bodyFont": "quattrocento_sans_n4",
   "sections": {
      "footer": {
       "type": "footer",

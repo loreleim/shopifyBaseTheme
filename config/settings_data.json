@@ -9,15 +9,15 @@
       "colors_outline_button_labels": "#121212",
       "colors_background_1": "#FFFFFF",
       "colors_background_2": "#F3F3F3",
-      "type_header_font": "assistant_n4",
-      "type_body_font": "assistant_n4"
+      "type_headerFont": "assistant_n4",
+      "type_bodyFont": "assistant_n4"
     },
     "Other Style": {
       "colors_primaryColor": "#FFFFFF",
       "colors_secondaryColor": "#121212",
       "colors_text": "#121212",
-      "type_header_font": "assistant_n4",
-      "type_body_font": "assistant_n4"
+      "type_headerFont": "assistant_n4",
+      "type_bodyFont": "assistant_n4"
     }
   }
 }

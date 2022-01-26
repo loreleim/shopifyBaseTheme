@@ -1,6 +1,6 @@
 .footer__copyright {
   color: red;
   background-color: var(--buttonColor);
-  font-family: var(--font-Primary);
+  font-family: var(--font-Heading);
   padding: 1rem;
 }

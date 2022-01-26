@@ -12,7 +12,7 @@
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
     {%- endif -%}
 
-    {%- unless settings.type_header_font.system and settings.type_body_font.system? -%}
+    {%- unless settings.type_headerFont.system and settings.type_bodyFont.system? -%}
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endunless -%}
 
@@ -34,10 +34,11 @@
 
     {% style %}
     
-    {{ settings.type_header_font | font_face: font_display: 'swap' }}
+    {{ settings.type_headerFont | font_face: font_display: 'swap' }}
 
     :root {
-      --font-Primary: {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
+      --font-Heading: {{ settings.type_headerFont.family }}, {{ settings.type_headerFont.fallback_families }};
+      --font-Body: {{ settings.type_headerFont.family }}, {{ settings.type_headerFont.fallback_families }};
       
       /* Colors */
       --primaryColor: {{ settings.colors_primaryColor }};
@@ -52,11 +53,11 @@
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
 
-    {%- unless settings.type_body_font.system? -%}
-      <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
+    {%- unless settings.type_bodyFont.system? -%}
+      <link rel="preload" as="font" href="{{ settings.type_bodyFont | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}
-    {%- unless settings.type_header_font.system -%}
-      <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
+    {%- unless settings.type_headerFont.system -%}
+      <link rel="preload" as="font" href="{{ settings.type_headerFont | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}
 
     {%- if settings.predictive_search_enabled -%}
@@ -65,8 +66,8 @@
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
 
-    {%- unless settings.type_header_font.system? -%}
-    <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
+    {%- unless settings.type_headerFont.system? -%}
+    <link rel="preload" as="font" href="{{ settings.type_headerFont | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}
   </head>
 
