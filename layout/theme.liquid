@@ -46,7 +46,7 @@
       {{ body_font_bold_italic | font_face: font_display: 'swap' }}
       {{ settings.type_header_font | font_face: font_display: 'swap' }}
 
-      --test: {{ settings.type_header_font.family }}, ;
+      --test: {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
       
       /* Colors */
       --primaryButton: red;
