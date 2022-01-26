@@ -3,13 +3,11 @@
     "colors": {
       "name": "Colors",
       "settings": {
-        "colors_solid_button_labels": {
-          "label": "Solid button label",
-          "info": "Used as foreground color on accent colors."
+        "colors_primaryColor": {
+          "label": "Primary Color"
         },
-        "colors_accent_1": {
-          "label": "Accent 1",
-          "info": "Used for solid button background."
+        "colors_secondaryColor": {
+          "label": "Secondary Color"
         },
         "gradient_accent_1": {
           "label": "Accent 1 gradient"
@@ -28,23 +26,7 @@
         },
         "colors_text": {
           "label": "Text",
-          "info": "Used as foreground color on background colors."
-        },
-        "colors_outline_button_labels": {
-          "label": "Outline button",
-          "info": "Also used for text links."
-        },
-        "colors_background_1": {
-          "label": "Background 1"
-        },
-        "gradient_background_1": {
-          "label": "Background 1 gradient"
-        },
-        "colors_background_2": {
-          "label": "Background 2"
-        },
-        "gradient_background_2": {
-          "label": "Background 2 gradient"
+          "info": "Color for text"
         }
       }
     },
@@ -52,8 +34,7 @@
       "name": "Typography",
       "settings": {
         "type_header_font": {
-          "label": "Font",
-          "info": "Selecting a different font can affect the speed of your store. [Learn more about system fonts.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "label": "Font"
         },
         "header__1": {
           "content": "Headings"
@@ -62,8 +43,7 @@
           "content": "Body"
         },
         "type_body_font": {
-          "label": "Font",
-          "info": "Selecting a different font can affect the speed of your store. [Learn more about system fonts.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "label": "Font"
         }
       }
     },

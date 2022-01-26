@@ -12,7 +12,7 @@ a shopify 2.0 base theme that passes `shopify theme check`
 
 ## Theme Details
 
-Everything below shows up in the Customize > Theme settings > Theme details page. Items will show up in accordion format in the admin.
+Everything below shows up in the Customize > Theme settings > Theme details page. Items will show up in accordion format in the admin. If you want an accordion to show up, you'll have to configure it in the settings_schema.json
 
 <details>
   <summary>settings_schema.json</summary>
@@ -36,8 +36,8 @@ Everything below shows up in the Customize > Theme settings > Theme details page
   
   ```json
   "Craft": {
-  "colors_solid_button_labels": "#EFECEC",
-  "colors_accent_1": "#2A332F",
+  "colors_primaryColor": "#EFECEC",
+  "colors_secondaryColor": "#2A332F",
   "colors_accent_2": "#476154",
   "colors_text": "#1C1A1A",
   "colors_outline_button_labels": "#7B8382",
@@ -67,6 +67,23 @@ Everything below shows up in the Customize > Theme settings > Theme details page
    }
   }
   ```
+</details>
+
+## Theme Variables
+
+<details>
+  <summary>theme.liquid</summary>
+  
+  ```liquid
+  {% style %}
+    :root {
+      /* Colors */
+      --primaryButton: red;
+      --color-base-solid-button-labels: {{ settings.colors_primaryColor }};
+    }
+  {% endstyle %}
+  ```
+  
 </details>
 
 </hr>
