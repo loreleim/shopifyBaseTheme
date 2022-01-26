@@ -35,10 +35,11 @@
     {% style %}
     
     {{ settings.type_headerFont | font_face: font_display: 'swap' }}
+    {{ settings.type_bodyFont | font_face: font_display: 'swap' }}
 
     :root {
       --font-Heading: {{ settings.type_headerFont.family }}, {{ settings.type_headerFont.fallback_families }};
-      --font-Body: {{ settings.type_headerFont.family }}, {{ settings.type_headerFont.fallback_families }};
+      --font-Body: {{ settings.type_bodyFont.family }}, {{ settings.type_bodyFont.fallback_families }};
       
       /* Colors */
       --primaryColor: {{ settings.colors_primaryColor }};
