@@ -12,6 +12,8 @@ a shopify 2.0 base theme that passes `shopify theme check`
 
 ## Theme Details
 
+Everything below shows up in the Customize > Theme settings > Theme details page. Items will show up in accordion format in the admin.
+
 <details>
   <summary>settings_schema.json</summary>
   
