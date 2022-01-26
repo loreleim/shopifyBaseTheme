@@ -50,7 +50,7 @@ Everything below shows up in the Customize > Theme settings > Theme details page
   "Craft": {
   "colors_primaryColor": "#EFECEC",
   "colors_secondaryColor": "#2A332F",
-  "colors_accent_2": "#476154",
+  "colors_foregroundColor": "#476154",
   "colors_text": "#1C1A1A",
   "colors_outline_button_labels": "#7B8382",
   "colors_background_1": "#EFECEC",

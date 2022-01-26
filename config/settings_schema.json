@@ -27,12 +27,6 @@
         "label": "t:settings_schema.colors.settings.colors_secondaryColor.label"
       },
       {
-        "type": "color",
-        "id": "colors_accent_2",
-        "default": "#334FB4",
-        "label": "t:settings_schema.colors.settings.colors_accent_2.label"
-      },
-      {
         "type": "header",
         "content": "t:settings_schema.colors.settings.header__2.content"
       },
@@ -40,8 +34,35 @@
         "type": "color",
         "id": "colors_text",
         "default": "#121212",
-        "label": "t:settings_schema.colors.settings.colors_text.label",
-        "info": "t:settings_schema.colors.settings.colors_text.info"
+        "label": "t:settings_schema.colors.settings.colors_text.label"
+      },
+      {
+        "type": "color",
+        "id": "colors_foregroundColor",
+        "default": "#334FB4",
+        "label": "t:settings_schema.colors.settings.colors_foregroundColor.label"
+      },
+      {
+        "type": "color",
+        "id": "colors_backgroundColor",
+        "default": "#000",
+        "label": "t:settings_schema.colors.settings.colors_backgroundColor.label"
+      },
+      {
+        "type": "header",
+        "content": "t:settings_schema.colors.settings.header__3.content"
+      },
+      {
+        "type": "color",
+        "id": "colors_buttonColor",
+        "default": "#000",
+        "label": "t:settings_schema.colors.settings.colors_buttonColor.label"
+      },
+      {
+        "type": "color",
+        "id": "colors_buttonHover",
+        "default": "#000",
+        "label": "t:settings_schema.colors.settings.colors_buttonHover.label"
       }
     ]
   },
