@@ -1,5 +1,5 @@
 .footer__copyright {
   color: red;
-  background-color: black;
+  background-color: var(--color1);
   padding: 1rem;
 }

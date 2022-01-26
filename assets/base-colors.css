@@ -1,4 +1,3 @@
-
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
@@ -13,6 +12,7 @@
   --color-badge-background: var(--color-background);
   --color-badge-border: var(--color-foreground);
   --alpha-badge-border: 0.1;
+  --color1: red;
 }
 
 .color-background-2 {
