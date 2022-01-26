@@ -37,10 +37,16 @@
     {{ settings.type_header_font | font_face: font_display: 'swap' }}
 
     :root {
-      --test: {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
+      --font-Primary: {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
       
       /* Colors */
-      --primaryButton: {{ settings.colors_buttonColor }};
+      --primaryColor: {{ settings.colors_primaryColor }};
+      --secondaryColor: {{ settings.colors_secondaryColor }};
+      --textColor: {{ settings.colors_text }};
+      --foregroundColor: {{ settings.colors_foregroundColor }};
+      --backgroundColor: {{ settings.colors_backgroundColor }};
+      --buttonColor: {{ settings.colors_buttonColor }};
+      --buttonHover: {{ settings.colors_buttonHover }};
     }
     {% endstyle %}
 

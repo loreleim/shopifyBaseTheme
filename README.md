@@ -90,8 +90,8 @@ Everything below shows up in the Customize > Theme settings > Theme details page
   {% style %}
     :root {
       /* Colors */
-      --primaryButton: red;
-      --primaryButton: {{ settings.colors_primaryColor }};
+      --buttonColor: red;
+      --buttonColor: {{ settings.colors_primaryColor }};
     }
   {% endstyle %}
   ```
