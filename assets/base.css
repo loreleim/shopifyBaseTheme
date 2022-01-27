@@ -8,16 +8,6 @@
 /* Colors */
 @import "./base-colors.css";
 
-/* Typography */
-@import "./base-typography.css";
-/*for some reason things won't import nice from there*/
-
-h1 {
-  font-family: var(--font-Heading);
-  font-style: var(--font-Style);
-  font-weight: var(--font-Weight);
-}
-
 /* Header */
 @import "./base-header.css";
 
