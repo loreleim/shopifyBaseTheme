@@ -40,6 +40,8 @@
     :root {
       --font-Heading: {{ settings.type_headerFont.family }}, {{ settings.type_headerFont.fallback_families }};
       --font-Body: {{ settings.type_bodyFont.family }}, {{ settings.type_bodyFont.fallback_families }};
+      --font-Style: {{ settings.type_bodyFont.style }};
+      --font-Weight: {{ settings.type_bodyFont.weight }};
       
       /* Colors */
       --primaryColor: {{ settings.colors_primaryColor }};
@@ -50,6 +52,7 @@
       --buttonColor: {{ settings.colors_buttonColor }};
       --buttonHover: {{ settings.colors_buttonHover }};
     }
+
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
