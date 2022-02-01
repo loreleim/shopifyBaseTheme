@@ -1,15 +1,13 @@
 <link rel="stylesheet" href="{{ 'required-404.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <div class="main-404__container">
-  <div>
-    <p>
-      {{ 'templates.404.subtext' | t }}
-    </p>
-    <h1 class="title">
-      {{ 'templates.404.title' | t }}
-    </h1>
+
+  <div class="main-404__copy">
+    <p> {{ 'templates.404.subtext' | t }} </p>
+    <h1 class="title"> {{ 'templates.404.title' | t }} </h1>
     <a href="{{ routes.all_products_collection_url }}" class="button">
       {{ 'general.continue_shopping' | t }}
     </a>
   </div>
+  
 </div>
