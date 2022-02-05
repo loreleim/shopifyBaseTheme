@@ -19,7 +19,7 @@
       ]
     },
     "featured-products": {
-      "type": "featured-collection",
+      "type": "block-collection",
       "settings": {
         "collection": "all",
         "image_ratio": "square"

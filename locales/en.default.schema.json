@@ -331,7 +331,7 @@
         "name": "Custom Liquid"
       }
     },
-    "featured-collection": {
+    "block-collection": {
       "name": "Featured collection",
       "settings": {
         "title": {
@@ -378,7 +378,7 @@
         },
         "show_rating": {
           "label": "Show product rating",
-          "info": "To display a rating, add a product rating app. [Learn more](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-collection-show-product-rating)"
+          "info": "To display a rating, add a product rating app. [Learn more](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#block-collection-show-product-rating)"
         }
       },
       "presets": {
