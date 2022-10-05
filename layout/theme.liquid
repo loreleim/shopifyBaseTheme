@@ -74,7 +74,9 @@
     {%- unless settings.type_headerFont.system? -%}
     <link rel="preload" as="font" href="{{ settings.type_headerFont | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}
-  </head>
+  
+  {% render 'qikify-apps' %}
+</head>
 
   <body class="gradient">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
