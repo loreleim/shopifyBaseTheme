@@ -111,7 +111,7 @@ this gets called on with
 ```
 t:sections.block-collection.name
 t:sections.block-collection.settings.title.label
-"t:sections.block-collection.settings.collection.label
+t:sections.block-collection.settings.collection.label
 ```
 
 sections > create a new file > block-nameofblock.liquid

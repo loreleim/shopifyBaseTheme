@@ -331,6 +331,17 @@
         "name": "Custom Liquid"
       }
     },
+    "block-sample": {
+      "name": "Sample Block",
+      "settings": {
+        "title": {
+          "label": "Sample Text Schema"
+        }
+      },
+      "presets": {
+        "name": "Featured collection"
+      }
+    },
     "block-collection": {
       "name": "Featured collection",
       "settings": {
