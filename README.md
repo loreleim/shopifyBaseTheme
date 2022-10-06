@@ -4,9 +4,11 @@ a shopify 2.0 base theme that passes `shopify theme check`
 
 # Anatomy of the Theme
 
-[Theme: Details]()
+[Theme: Details](#theme-details)
 
-[Theme: Colors]()
+[Theme: Colors](#theme-colors)
+
+[Theme: Making a Block](#theme-blocks)
 
 [Development: CLI Commands](#cli-commands)
 
@@ -24,7 +26,10 @@ shopify theme serve
 
 ## Theme Details
 
-Everything below shows up in the Customize > Theme settings > Theme details page. Items will show up in accordion format in the admin. If you want an accordion to show up, you'll have to configure it in the settings_schema.json
+Admin Frontend: Customize > Theme settings > Theme details page
+
+Items will show up in accordion format in the admin. If you want an accordion to show up, you'll have to
+configure it in the settings_schema.json
 
 <details>
   <summary>settings_schema.json</summary>
@@ -42,6 +47,7 @@ Everything below shows up in the Customize > Theme settings > Theme details page
 </details>
 
 ## Theme Colors
+Customize > Theme settings > Colors
 
 <details>
   <summary>settings_data.json</summary>
@@ -80,6 +86,38 @@ Everything below shows up in the Customize > Theme settings > Theme details page
   }
   ```
 </details>
+
+## Making a Block
+`nameofblock` represents something you should change to match your block
+
+
+en.default.schema.json > new sections.nameofblock
+```
+"nameofblock": {
+  "name": "",
+  settings: {
+    "title": {
+      "label": "Heading"
+    }, 
+    "collection": {
+      "label": "Collection"
+    }
+  }
+
+}
+```
+
+this gets called on with
+```
+t:sections.block-collection.name
+t:sections.block-collection.settings.title.label
+"t:sections.block-collection.settings.collection.label
+```
+
+sections > create a new file > block-nameofblock.liquid
+```
+
+```
 
 ## Theme Variables
 
